@@ -23,5 +23,6 @@ beforeEach(async () => {
 describe('Inbox', () => {
     it('deploy a contract', () => {
         console.log(inbox);
+        assert.ok(inbox.options.address); /*** .ok means that the value exist or truthy ***/
     })
 });
