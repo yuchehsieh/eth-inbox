@@ -3,28 +3,19 @@ const ganache = require('ganache-cli');
 const Web3 = require('web3');
 const web3 = new Web3(ganache.provider());
 
-class Car {
-    part() {
-        return 'stopped'
-    }
+let accounts;
 
-    drive() {
-        return 'vroom'
-    }
-}
+beforeEach(async () => {
+   // Get a list of all accounts
+    /*** almost every function we called in web3 are asynchronous ***/
+    accounts = await web3.eth.getAccounts();
 
-let car;
-
-beforeEach(() => {
-    car = new Car();
+   // Use one of those accounts to deploy
+   // the contract
 });
 
-describe('Car', () => {
-    it('can stop', () => {
-        assert.equal(car.part(), 'stopped');
-    });
-
-    it('can drive', () => {
-        assert.equal(car.drive(), 'vroom');
-    });
+describe('Inbox', () => {
+    it('deploy a contract', () => {
+        console.log(accounts);
+    })
 });
