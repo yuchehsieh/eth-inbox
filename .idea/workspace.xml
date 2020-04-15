@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa5ab198-b31d-4f4c-9a55-db8f5f64320f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/deploy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/Inbox.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/Inbox.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +58,8 @@
       <workItem from="1586824752225" duration="1182000" />
       <workItem from="1586826815470" duration="7494000" />
       <workItem from="1586867373950" duration="3186000" />
+      <workItem from="1586872124010" duration="88000" />
+      <workItem from="1586911879533" duration="934000" />
     </task>
     <servers />
   </component>

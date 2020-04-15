@@ -4,7 +4,7 @@ const {interface, bytecode} = require('./compile');
 
 const provider = new HDWalletProvider(
     'guard humble shrimp model canal runway boss position tube shy bunker mirror',
-    'https://rinkeby.infura.io/v3/57be3513956440c6b2764924be48cb5d'
+    'https://ropsten.infura.io/v3/57be3513956440c6b2764924be48cb5d'
 );
 
 const web3 = new Web3(provider);
